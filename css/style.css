@@ -1,0 +1,488 @@
+body,ul,li,p,h1,h2{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+
+    
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    /*background-color:darkseagreen;*/
+    /*background: #bbf5db;*/
+    background: rgba(241, 235, 234, 0.007);
+    
+    /*color: black*/
+    
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration:none;
+}
+
+img {
+    display:block;
+    max-width: 100%;
+    border-radius: 15px;
+   
+ 
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.topo-bg{
+    background:#4a725b;
+   /* color:rgb(90, 26, 3);*/
+   /*background: #023108;*/
+   color: rgb(255, 255, 255);
+}
+
+.top{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+}
+
+.menu-bg{
+    background: rgb(85, 131, 105);
+    /*background: #045f10 ;*/
+    
+}
+
+.menu{
+   /* max-width: 960px;*/
+    
+    margin: 0  ;
+    display: flex;
+    /*display: inline;*/
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.menu a{
+   /* color:rgb(90, 26, 3)*/
+   color:rgb(255, 255, 255)
+}
+
+.menu-logo img{
+
+   
+    position: relative;
+    top: 03px; left: 600px; 
+
+    
+}
+
+.menu-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-nav a{
+    font-size: 18px;
+    display:block;
+    padding: 10px;
+}
+
+li a:hover {
+    background: #4a725b;
+    color: 	#000;
+    border-color: black;
+}
+
+li a {
+    padding: 10px; 
+    margin: 5px;
+    background: #4a725b;
+    /*background: #023108;*/
+    text-decoration: none;
+    border-radius:15px;
+}
+
+.introducao{
+    /*display: flex;
+    flex-wrap: wrap;
+    justify-content: left;*/
+    font-size: 2em;
+    line-height: 2;
+    max-width: 960px;
+    margin-left: 510px ;
+    /*color: rgb(34, 32, 32);*/
+    
+    
+    
+}
+
+.introducao-h2{
+   /* display: flex;
+    flex-wrap: wrap;
+    justify-content: left;*/
+    font-size: 1em;
+    line-height: 2;
+    max-width: 960px;
+    margin-left: 410px ;
+    /*color:rgb(34, 32, 32);*/
+}
+
+.home-img{
+    /*border-top: 2px solid rgb(85, 131, 105);*/
+    /*border-bottom: 2px solid;*/
+    display: flex; /* Faz os itens ficarem lado a lado */
+    justify-content: space-around; /* Espaça os itens uniformemente */
+    max-width: 960px;
+    margin: 0 auto;
+    
+}   
+
+.sobre-img{
+
+   /* border-top: 2px solid rgb(85, 131, 105);*/
+   border-bottom: 2px dotted #4a725b;
+    display: flex; /* Faz os itens ficarem lado a lado */
+    justify-content: space-around; /* Espaça os itens uniformemente */
+    max-width: 960px;
+    margin: 0 auto;
+    
+}
+.box {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid white;
+    width: 4;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.box-2{
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid white;
+    width: 4;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.box-3{
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid white;
+    width: 4;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.box-4{
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid white;
+    width: 4;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+}
+
+.grafico-bioma{
+    max-width: 960px;
+    margin: 60px auto;
+}
+
+.grafico-bioma-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+      
+
+.grafico-itens-bioma{
+    flex: 1 1 175px;
+    margin: 10px 1px;
+    
+}
+
+.grafico-itens-bioma h2{
+    font-size: 1.5em;
+    background: rgb(85, 131, 105);
+    color: #000;
+    padding: 19px 25px;
+    border-top:25px solid #4a725b ;
+
+}
+
+.Newsletter{
+    background: rgb(85, 131, 105);
+    padding: 20px calc((100% - 960px) / 2);
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.newsletter-info{
+    flex: 1 1 260px;
+    margin: 0 10px;
+}
+
+.newsletter-info h1{
+    font-size: 1.5em;
+    color: black;
+    font-style: italic;
+    max-width: 230px;
+    
+}
+
+.newsletter-form{
+    flex: 2 1 260px;
+    margin: 0 10px;
+    align-self: right;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.newsletter-form input{
+    flex: 3 1 200px;
+    font-size: 1.25em;
+    color: #131212;
+    font-style: italic;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    border: 4 px solid #010118;
+    background: transparent;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 0px;
+    
+
+}
+
+::-webkit-input-placeholder {
+    color: black;
+ }
+
+.newsletter-form button{
+    flex: 1 1 200 px;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #4a725b;
+    margin: 0px;
+    cursor: pointer;
+    padding: 15px 10px;
+}
+
+.painel-fogo{
+    max-width: 960px;
+    margin: 60px auto;
+}
+
+.painel-fogo-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.painel-fogo-itens{
+    flex: 1 1 175px;
+    margin: 10px 1px;
+    
+}
+
+.painel-fogo-itens h2{
+    font-size: 1.5em;
+    background: rgb(85, 131, 105);
+    color: #000;
+    padding: 19px 25px;
+    border-top:25px solid #4a725b ;
+
+}
+
+.denuncia{
+    max-width: 960px;
+    margin: 60px auto;
+}
+
+.denuncia-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.denuncia-itens{
+    flex: 1 1 175px;
+    margin: 10px 1px;
+    
+}
+
+.denuncia-itens h2{
+    font-size: 1.5em;
+    background: rgb(85, 131, 105);
+    color: #000;
+    padding: 19px 25px;
+    border-top:25px solid #4a725b ;
+
+}
+
+.formulario{
+    background: rgb(85, 131, 105);
+    padding: 20px calc((100% - 960px) / 2);
+   /* margin: 0 160px ;*/
+   
+    display:block;
+    flex-wrap: wrap;
+    max-width: 960px;
+   
+    
+}
+
+.formulario-info{
+    flex: 1 1 260px;
+    margin: 0 10px;
+    
+}
+
+.formulario-info h1{
+    font-size: 1.4em;
+    color: black;
+    font-style: italic;
+    max-width: 230px;
+    
+}
+
+.formulario-form{
+    flex: 2 1 260px;
+    margin: 0 10px;
+    align-self: left;
+    display:block;
+    flex-wrap: wrap;
+    
+}
+
+.formulario-form input{
+    flex: 3 1 200px;
+    font-size: 1.25em;
+    color: #131212;
+    font-style: italic;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    border: 4 px solid #010118;
+    background: lightgray;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 0px;
+    
+
+}
+
+
+.formulario-form button{
+    flex: 1 1 200 px;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: gray;
+    margin: 0px;
+    cursor: pointer;
+    padding: 15px 10px;
+}
+
+
+.perguntas-container{
+
+    max-width: 960px;
+    margin: 60px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.perguntas-item{
+    flex: 1 1 240px;
+    margin: 20px 10px;
+    padding: 20px;
+
+}
+
+.perguntas-item h1{
+    font-size: 2em;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.perguntas-item h1::before{
+    content:" " ;
+    display: inline-block;
+    width: 8px;
+    height:30px ;
+    margin-right: 10px;
+    background: rgb(85, 131, 105);
+
+} 
+
+.telefones{
+    max-width: 960px;
+    margin: 60px auto;
+}
+
+.telefones h1{
+    font-size: 3em;
+    margin: 0 10px 60px 10 px;
+}
+
+.telefones-container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.telefones-item{
+    flex: 1 1 175px;
+    margin: 10px;
+}
+
+.telefones-item h2{
+font-size: 1em;
+color:rgb(255, 255, 255);
+background: rgb(85, 131, 105);
+padding: 60px 20px;
+border-top: 8px solid #4a725b;
+}
+    
+
+
+
+.footer{
+    display: flex;
+    background: #4a725b;
+    height: 30px;
+    align-items: center;
+
+}
+
+
+.footer h2{
+    
+    flex: 1;
+    text-align: center;
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 12px;
+}
